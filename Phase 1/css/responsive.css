@@ -393,6 +393,9 @@
     margin: 35px 0px 5px 0px;
     justify-content: center;
   }
+  .filter_btns ul li:not(:first-child):hover:after {
+    width: 0;
+  }
 }
 
 @media (max-width: 350px) {
