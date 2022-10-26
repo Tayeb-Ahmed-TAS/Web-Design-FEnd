@@ -1,0 +1,337 @@
+@media (max-width: 1200px) {
+  .part1 {
+    margin-left: 15%;
+  }
+
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+@media (max-width: 1000px) {
+  .part1 {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    width: 85%;
+  }
+
+  .part1 {
+    margin-left: 5%;
+  }
+  .part1 h3 {
+    font-size: 90px;
+  }
+  .part1 p {
+    font-size: 23px;
+  }
+  .part1 form input {
+    width: 380px;
+  }
+  .part2 span {
+    font-size: 55px;
+  }
+}
+@media (max-width: 800px) {
+  .part1 {
+    margin-left: 15px;
+  }
+  .part1 h3 {
+    font-size: 85px;
+  }
+  .part1 p {
+    font-size: 22px;
+  }
+  .part1 form input {
+    width: 350px;
+  }
+  .part2 span {
+    font-size: 50px;
+  }
+}
+@media (max-width: 760px) {
+  .mainDiv {
+    flex-direction: column;
+  }
+
+  .part1 {
+    width: 85% !important;
+    margin: auto;
+  }
+  .part1 h3 {
+    font-size: 92px;
+  }
+  .part1 p {
+    font-size: 23px;
+  }
+  .part1 form input {
+    width: 350px;
+  }
+  .part1 form button {
+    margin-left: -5px;
+  }
+  .part2 {
+    width: 85% !important;
+    margin: 35px auto;
+    flex-direction: row;
+  }
+  .part2 div {
+    width: 24% !important;
+  }
+  .part2 span {
+    font-size: 55px;
+  }
+  .social {
+    width: 180px;
+    flex-direction: row;
+    margin: auto;
+  }
+  .social a {
+    font-size: 32px;
+  }
+}
+@media (max-width: 610px) {
+  .part1 h3 {
+    font-size: 80px;
+  }
+  .part1 p {
+    font-size: 21px;
+  }
+  .part1 form input {
+    width: 320px;
+  }
+  .part2 span {
+    font-size: 56px;
+  }
+
+  .social a:hover {
+    opacity: 1;
+  }
+
+}
+@media (max-width: 550px) {
+  .part1 {
+    width: 95% !important;
+  }
+  .part1 h3 {
+    font-size: 70px;
+  }
+  .part1 p {
+    font-size: 20px;
+  }
+  .part1 form input {
+    width: 300px;
+  }
+  .part1 form button {
+    margin-left: -4px;
+  }
+  .part2 {
+    display: block;
+    text-align: center;
+    width: 300px !important;
+  }
+  .part2 div {
+    width: 45% !important;
+    float: left;
+  }
+  .part2 div:last-child,
+  .part2 div:nth-child(2) {
+    padding-left: 20px;
+  }
+  .part2 span {
+    font-size: 56px;
+  }
+}
+@media (max-width: 450px) {
+  .part1 {
+    width: 100% !important;
+  }
+  .part1 h3 {
+    font-size: 60px;
+  }
+  .part1 p {
+    font-size: 18px;
+  }
+  .part1 form input {
+    width: 280px;
+  }
+  .part1 form button {
+    margin-left: -4px;
+  }
+  .part2 {
+    display: block;
+    width: 300px !important;
+  }
+  .part2 div {
+    width: 45% !important;
+    float: left;
+  }
+  .part2 span {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 446px) {
+  .part1 form button {
+    margin-left: -5px;
+  }
+}
+@media (max-width: 442px) {
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+@media (max-width: 433px) {
+  .part1 form button {
+    margin-left: -5px;
+  }
+}
+@media (max-width: 429px) {
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+@media (max-width: 420px) {
+  .part1 form input {
+    width: 260px;
+  }
+  
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 419px) {
+  .part1 form button {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 416px) {
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 406px) {
+  .part1 form button {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 402px) {
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    width: 105px;
+  }
+  .part1 form input {
+    width: 210px;
+  }
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 393px) {
+  .part1 form button {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 389px) {
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+@media (max-width: 379px) {
+  .part1 form button {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 376px) {
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 366px) {
+  .part1 form button {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 362px) {
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 353px) {
+  .part1 form button {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 349px) {
+  .part1 form button {
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 340px) {
+  .logo {
+    width: 95px;
+  }
+  .sBtn button {
+    font-size: 14px;
+    word-spacing: 1px;
+    padding: 6px 19px;
+  }
+  .mainDiv {
+    margin-top: 75px;
+  }
+  .part1 p {
+    font-size: 16px;
+  }
+  .part1 form input {
+    width: 100%;
+    font-size: 14px;
+    padding: 0px 13px;
+  }
+  .part1 form button {
+    padding: 22px 24px 15px 24px;
+    position: relative;
+    top: -60px;
+    left: 79.5%;
+    background: #8490ff;
+  }
+  .part2 {
+    width: 100% !important;
+    margin: -14px auto;
+  }
+  .social {
+    padding-top: 35px;
+  }
+}
+@media (max-width: 300px) {
+  .part1 form button {
+    left: 77%;
+  }
+}
+@media (max-width: 270px) {
+  .part1 form button {
+    left: 75%;
+  }
+}
+@media (max-width: 255px) {
+  .part1 form button {
+    left: 72%;
+  }
+}
