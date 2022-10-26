@@ -542,6 +542,7 @@ footer p {
 @media (max-width: 650px) {
   .footer_wrapper div {
     width: 85%;
+    margin:auto;
   }
 
   .foot_icons {
