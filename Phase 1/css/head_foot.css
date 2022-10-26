@@ -547,6 +547,7 @@ footer p {
 
   .foot_icons {
     width: 28% !important;
+    margin: 0px !important;
   }
 }
 
