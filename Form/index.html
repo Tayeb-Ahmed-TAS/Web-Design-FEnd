@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+    <meta charset="UTF-8">
+
+    <title> Sign up </title>
+
+    <!----TITLE ICON----->
+
+    <link rel="shortcut icon" href="img/icons8-form-80.png" type="image/x-icon" />
+
+    <!----MAIN CSS----->
+
+    <link href="css/signUp.css" type="text/css" rel="stylesheet" />
+
+    <!----FONTS CSS----->
+
+    <link href="" type="text/css" rel="stylesheet" />
+
+    <!----RESPONSIVE CSS----->
+
+    <link href="" type="text/css" rel="stylesheet" />
+
+    <!----SCRIPT FOR FONT-AWSOME ICONS----->
+
+    <!-- <script src="https://kit.fontawesome.com/1ac01ecf44.js" crossorigin="anonymous"></script> -->
+
+    <!----CMD FOR BOXICONS----->
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <section id="sec1">
+
+        <div class="container">
+
+            <div class="sec1Wrapper">
+
+                <div class="signUpForm">
+
+                    <form>
+
+                        <div class="first">
+
+                            <h4>Account</h4>
+
+                            <input type="text" placeholder="Full Name" required />
+
+                            <input type="email" placeholder="Email Address" required />
+
+                            <input type="password" placeholder="Password" minlength="6" maxlength="32" required />
+
+                            <p>Minimum 6 characters</p>
+
+                        </div>
+
+                        <div class="second">
+
+                            <div>
+
+                                <h4>Date of Birth</h4>
+
+                                <div>
+
+                                    <input type="number" placeholder="DD" class="day" required />
+
+                                    <input type="number" placeholder="MM" class="month" required />
+
+                                    <input type="number" placeholder="YYYY" class="year" required />
+
+                                </div>
+
+                            </div>
+
+                            <div class="sex">
+
+                                <h4>Gender</h4>
+
+                                <input type="radio" name="sex" value="Male" required /><span>Male</span>
+
+                                <input id="sexLast" type="radio" name="sex" value="Female"
+                                    required /><span>Female</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="third">
+
+                            <h4>Payment Details (Optinal)</h4>
+
+                            <input type="number" class="cardNumber" placeholder="Card Number" />
+
+                            <p>Enter your 16 digit card number</p>
+
+                            <div>
+
+                                <input type="number" class="cvcNumber" placeholder="Card CVC" />
+
+                                <input type="month" value="2023-03" />
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="fourth">
+
+                            <div>
+
+                                <label for="1">
+
+                                    <input type="checkbox" class="checkBox" id="1" required />
+                                    <span id="check"> I have read and agree to the <a href="#"> Terms and Conditions
+                                        </a> and <a href="#">Privacy Policy</a>.</span>
+
+                                </label>
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                        <div class="last">
+
+                            <button class="btn">sign up</button>
+
+                        </div>
+
+
+                        <div class="lowerText">
+                            Already have an account? <a href="login.html">Login</a>
+                        </div>
+
+                </div>
+
+
+                </form>
+
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/signUp.js" type="text/javascript"></script>
+
+</body>
+
+</html>
