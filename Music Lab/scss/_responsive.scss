@@ -1,0 +1,64 @@
+// todo:Section 1
+
+@media (max-width: 700px) {
+  #sec1 {
+    .sec1_txt {
+      width: 85%;
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #sec1 {
+    .sec1_txt {
+      width: 90%;
+    }
+    .music {
+      img {
+        width: 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #sec1 {
+    .sec1_txt {
+      width: 100%;
+      span {
+        font-size: 16px;
+      }
+    }
+
+    .music {
+      img {
+        width: 80px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #sec1 {
+    .sec1_txt {
+      width: 100%;
+      span {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 312px) {
+  #sec1 {
+    .sec1_txt {
+      width: 100%;
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}

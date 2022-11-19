@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// font-family: 'Poppins',sans-serif;
+
+// font-family: 'Ubuntu', sans-serif;
+
+// font-family: 'Inter', sans-serif;
+
+// todo: Fonts
+
+$first_font: "Poppins", sans-serif;
+$second_font: "Ubuntu", sans-serif;
+$third_font: "Inter", sans-serif;
+
+// todo: Colors
+
+$first_color: #a52a2a;
+$second_color: #000;
+$third_color: #fff;
+$fourth_color: #8490ff;
+$fifth_color: #97a7af;
+$sixth_color: #42b5f2;
+$seventh_color: #ff3d00;
+$background_one: linear-gradient(
+  to bottom,
+  #161a1a 0%,
+  rgba(38, 41, 41, 0.99) 100%
+);
+$background_two: linear-gradient(
+  to right,
+  #ca42f2 0%,
+  #6a42f2 39%,
+  #4294f2 75%,
+  #42b5f2 100%,
+  #7db9e8 100%
+);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: $first_font;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: $first_color;
+  color: $third_color;
+}
+
+// Todo: Scroll bar
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgb(0 0 0 / 50%);
+  -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 50%);
+}
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #8490ff;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgb(255 255 255 / 30%);
+  -webkit-box-shadow: inset 0 0 6px rgb(255 255 255 / 30%);
+  background: #e4e3e3;
+}
+
+// Todo: Common Styles
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.sec {
+  padding: 60px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
+  text-align: justify;
+  color: #777;
+  width: 90%;
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $third_font;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 36px;
+  line-height: 1.2;
+}
+
+input[type="button"] {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+// todo: Container Responsive
+
+@media (max-width: 1200px) {
+  .container {
+    width: 85%;
+  }
+}
+
+// todo: responsive
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 43px;
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 26px;
+  }
+}
