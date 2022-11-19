@@ -1,0 +1,257 @@
+header {
+  background: $background_one;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .switch_nav {
+    display: none;
+    color: $third_color;
+    font-size: 32px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+
+    i {
+      cursor: pointer;
+    }
+  }
+
+  .header_singIn {
+    width: 14%;
+    text-align: center;
+
+    input {
+      color: $third_color;
+      background: $background_two !important;
+      padding: 11px 35px;
+      font-size: 16px;
+      border-radius: 2px;
+      font-weight: 500;
+      display: inline-block;
+    }
+  }
+
+  .logo {
+    width: 16.5%;
+    img {
+      width: 100%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+  }
+  .navigation {
+    width: 68%;
+
+    nav {
+      width: 80%;
+      margin: auto;
+    }
+
+    nav a {
+      color: $third_color;
+      transition: 0.3s;
+    }
+
+    .active_nav {
+      color: $sixth_color;
+    }
+
+    nav ul li {
+      width: calc(100% / 6);
+      font-size: 16px;
+      text-transform: capitalize;
+      cursor: pointer;
+      position: relative;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .subMenu_parent i {
+      display: none;
+    }
+
+    nav ul li a:not(.active_nav):hover {
+      color: $fifth_color;
+    }
+
+    .subMenu {
+      position: absolute;
+      top: 78px;
+      left: 0px;
+      background: $background_three;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 180px;
+      padding: 10px 0px 15px 0px;
+      display: none;
+      transition: 0.5s ease-in-out;
+      animation: fadeIn 0.5s;
+
+      li {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 10px 15px;
+        height: 35px;
+      }
+
+      li a:hover {
+        color: $sixth_color !important;
+      }
+    }
+
+    @-webkit-keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    nav ul li:hover > ul {
+      display: block;
+    }
+  }
+}
+
+// todo: Responsive header
+
+@media (max-width: 1200px) {
+  header {
+    .logo {
+      width: 15%;
+    }
+
+    .navigation nav {
+      width: 95%;
+      margin: auto;
+    }
+
+    nav ul li {
+      font-size: 15px !important;
+    }
+
+    .header_singIn {
+      width: 13%;
+      input {
+        padding: 11px 30px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  header {
+    .logo {
+      width: 180px;
+    }
+
+    .switch_nav {
+      display: block;
+      padding: 10px 0px;
+      height: 70px;
+    }
+
+    .header_singIn {
+      display: none;
+    }
+
+    .wrapper {
+      position: relative;
+    }
+
+    .show_nav {
+      display: block !important;
+    }
+
+    .navigation {
+      display: none;
+      position: fixed;
+      width: 85%;
+      background: $background_one;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.98;
+      top: 70px;
+      transition: 0.5s ease-in-out;
+      animation: fadeIn 0.5s;
+
+      nav {
+        width: 100%;
+        padding: 0px 30px;
+        ul {
+          display: block;
+
+          li {
+            width: 100%;
+            display: block;
+            height: auto;
+            line-height: 40px;
+
+            a:hover {
+              color: $third_color !important;
+            }
+          }
+        }
+      }
+
+      .subMenu_parent i {
+        display: block;
+        width: 50px;
+        font-size: 14px;
+        color: $third_color;
+        float: right;
+        padding-top: 14px;
+        cursor: pointer;
+      }
+
+      .open_sub {
+        display: block !important;
+      }
+
+      .subMenu {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        background: transparent;
+        width: 100%;
+
+        li {
+          height: auto;
+          line-height: 14px;
+
+          a:hover {
+            color: $third_color !important;
+          }
+        }
+      }
+
+      nav ul li:hover > ul {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .logo {
+    width: 120px !important;
+  }
+}
