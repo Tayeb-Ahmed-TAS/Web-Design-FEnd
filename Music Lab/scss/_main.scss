@@ -1,0 +1,282 @@
+// todo: Common Div
+
+.common_div {
+  width: 75%;
+  margin: auto;
+  padding-bottom: 40px;
+  h2 {
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+// todo: Section 1
+
+#sec1 {
+  background: $background_one;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .sec1_txt {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: $third_color;
+
+    span {
+      color: $fifth_color;
+      font-size: 20px;
+    }
+
+    h1 {
+      margin-top: 13px;
+    }
+  }
+
+  .music {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+
+    img {
+      width: 120px;
+      cursor: pointer;
+    }
+  }
+
+  .sec1_img {
+    width: 100%;
+    margin-top: 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// todo: Section 2
+
+#sec2 {
+  .sec2_img,
+  .sec2_txt {
+    width: 48%;
+  }
+
+  .sec2_img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .sec2_txt {
+    img {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      li {
+        line-height: 30px;
+        margin: 13px 0px;
+        align-items: flex-start !important;
+
+        span {
+          width: 50px;
+          text-align: center;
+          color: $third_color;
+          background: $background_four;
+          border-radius: 50%;
+          height: 50px;
+          justify-content: center !important;
+          font-size: 16px;
+        }
+
+        p {
+          width: calc(100% - 70px);
+        }
+      }
+    }
+  }
+}
+
+// todo: Section 3
+
+#sec3 {
+  background: $background_five;
+
+  .sec3Txt {
+    width: 44%;
+
+    ul {
+      width: 100%;
+
+      li {
+        background: $third_color;
+        padding: 22px 20px;
+        margin-bottom: 15px;
+
+        img {
+          width: 70px;
+        }
+        p {
+          width: calc(100% - 100px) !important;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+
+  .sec3Img {
+    width: 53%;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+// todo: Section 4
+
+.music_boxs {
+  width: 100%;
+  .music_single {
+    width: calc(100% / 4 - 15px);
+    text-align: center;
+    cursor: pointer;
+
+    img {
+      width: 120px;
+    }
+
+    p {
+      text-align: center;
+      width: 100%;
+      font-weight: 600;
+    }
+  }
+}
+
+// todo: Section 5
+
+#sec5 {
+  background: $background_five;
+
+  .flex {
+    justify-content: space-around !important;
+  }
+
+  .price_boxs {
+    width: 70%;
+
+    .price_single {
+      background: $third_color;
+      width: calc(100% / 2 - 30px);
+      padding: 45px 35px;
+      border: 1px solid $tenth_color;
+      border-radius: 3px;
+
+      .price_upper {
+        padding-bottom: 30px;
+        border-bottom: 1px solid $tenth_color;
+
+        span {
+          font-size: 16px;
+          font-weight: 600;
+        }
+        h4 {
+          color: $twelventh_color;
+          font-size: 24px;
+          margin-top: 8px;
+
+          span {
+            font-weight: 500;
+          }
+        }
+      }
+
+      .price_lower {
+        padding-top: 30px;
+
+        ul {
+          li {
+            color: $thirteenth_color;
+            line-height: 38px;
+
+            i {
+              font-size: 16px;
+              color: $nineth_color;
+              margin-right: 15px;
+            }
+          }
+        }
+
+        input[type="button"] {
+          text-transform: capitalize;
+          font-size: 18px;
+          color: $third_color;
+          background: $twelventh_color;
+          width: 100%;
+          padding: 10px;
+          margin-top: 25px;
+          transition: 0.3s;
+          border-radius: 3px;
+        }
+
+        input[type="button"]:hover {
+          background: $sixth_color;
+        }
+      }
+    }
+  }
+}
+
+// todo: Section 6
+
+#sec6 {
+  form {
+    width: 56%;
+    margin: auto;
+
+    textarea,
+    input:nth-child(4) {
+      width: 100% !important;
+    }
+
+    input[type="email"],
+    input[type="text"] {
+      width: 48%;
+    }
+
+    textarea,
+    input {
+      outline: none;
+      padding: 12px 30px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      border-radius: 3px;
+      border: 1px solid $fifteenth_color;
+    }
+
+    textarea {
+      resize: none;
+      height: 160px;
+    }
+
+    input[type="submit"] {
+      background: transparent;
+      border: 1px solid $twelventh_color;
+      color: $twelventh_color;
+      cursor: pointer;
+      transition: 0.3s;
+      text-transform: capitalize;
+    }
+    input[type="submit"]:hover {
+      background: $twelventh_color;
+      color: $third_color;
+    }
+  }
+}

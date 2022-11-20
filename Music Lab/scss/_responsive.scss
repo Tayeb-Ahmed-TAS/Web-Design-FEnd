@@ -1,0 +1,506 @@
+// todo: Common Div
+
+@media (max-width: 800px) {
+  .common_div {
+    width: 85%;
+  }
+}
+
+@media (max-width: 700px) {
+  .common_div {
+    p {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .common_div {
+    width: 95%;
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .common_div {
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .common_div {
+    width: 100%;
+  }
+}
+
+// todo:Section 1
+
+@media (max-width: 700px) {
+  #sec1 {
+    .sec1_txt {
+      width: 85%;
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #sec1 {
+    .sec1_txt {
+      width: 90%;
+    }
+    .music {
+      img {
+        width: 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #sec1 {
+    .sec1_txt {
+      width: 100%;
+      span {
+        font-size: 16px;
+      }
+    }
+
+    .music {
+      img {
+        width: 80px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #sec1 {
+    .sec1_txt {
+      width: 100%;
+      span {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 312px) {
+  #sec1 {
+    .sec1_txt {
+      width: 100%;
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// todo: Section 2
+
+@media (max-width: 992px) {
+  #sec2 {
+    .flex {
+      flex-wrap: wrap;
+    }
+
+    .sec2_img,
+    .sec2_txt {
+      width: 55%;
+      margin: auto;
+    }
+
+    .sec2_txt {
+      margin-top: 40px;
+
+      img {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  #sec2 {
+    .sec2_img,
+    .sec2_txt {
+      width: 60%;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  #sec2 {
+    .sec2_txt {
+      ul {
+        li {
+          p {
+            width: 100%;
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #sec2 {
+    .sec2_img,
+    .sec2_txt {
+      width: 70%;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #sec2 {
+    .sec2_img,
+    .sec2_txt {
+      width: 85%;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  #sec2 {
+    .sec2_img,
+    .sec2_txt {
+      width: 95%;
+    }
+  }
+}
+
+// todo: Section 3
+
+@media (max-width: 1100px) {
+  #sec3 {
+    .sec3Txt {
+      width: 44%;
+    }
+
+    .sec3Img {
+      width: 54%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #sec3 {
+    .sec3Txt,
+    .sec3Img {
+      width: 60%;
+      margin: auto;
+    }
+
+    .sec3Img {
+      padding-top: 25px;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  #sec3 {
+    .sec3Txt,
+    .sec3Img {
+      width: 75%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #sec3 {
+    .sec3Txt,
+    .sec3Img {
+      width: 85%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #sec3 {
+    .sec3Txt,
+    .sec3Img {
+      width: 95%;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #sec3 {
+    .sec3Txt,
+    .sec3Img {
+      width: 95%;
+    }
+
+    .sec3Txt {
+      ul {
+        li {
+          img {
+            width: 55px;
+            margin: auto;
+          }
+
+          p {
+            width: 100% !important;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  #sec3 {
+    .sec3Txt,
+    .sec3Img {
+      width: 98%;
+    }
+  }
+}
+
+// todo: Section 4
+
+@media (max-width: 992px) {
+  .music_boxs {
+    .music_single {
+      width: calc(100% / 3 - 15px);
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .music_boxs {
+    .music_single {
+      width: calc(50% - 15px);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .music_boxs {
+    .music_single {
+      width: 70%;
+      margin: auto auto 30px auto;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .music_boxs {
+    .music_single {
+      width: 85%;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .music_boxs {
+    .music_single {
+      width: 90%;
+    }
+
+    img {
+      width: 90px !important;
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  .music_boxs {
+    .music_single {
+      width: 95%;
+    }
+  }
+}
+
+// todo Section 5
+
+@media (max-width: 1200px) {
+  #sec5 {
+    .price_boxs {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #sec5 {
+    .price_boxs {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  #sec5 {
+    .price_boxs {
+      width: 95%;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  #sec5 {
+    .price_boxs {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  #sec5 {
+    .price_boxs.flex {
+      justify-content: center !important;
+    }
+
+    .price_boxs {
+      .price_single {
+        width: 60%;
+      }
+
+      .price_single:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #sec5 {
+    .price_boxs {
+      .price_single {
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #sec5 {
+    .price_boxs {
+      .price_single {
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #sec5 {
+    .price_boxs {
+      .price_single {
+        width: 90%;
+      }
+
+      .price_lower {
+        input[type="button"] {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #sec5 {
+    .price_boxs {
+      .price_single {
+        width: 100%;
+      }
+      .price_lower {
+        ul {
+          li {
+            line-height: 30px;
+            font-size: 14px;
+
+            i {
+              font-size: 14px;
+            }
+          }
+        }
+
+        input[type="button"] {
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
+}
+
+// todo: Section 6
+
+@media (max-width: 1200px) {
+  #sec6 {
+    form {
+      width: 65%;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  #sec6 {
+    form {
+      width: 70%;
+
+      textarea,
+      input {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  #sec6 {
+    form {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  #sec6 {
+    form {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #sec6 {
+    form {
+      textarea,
+      input:not(:last-child) {
+        width: 100% !important;
+      }
+
+      input[type="submit"] {
+        background: $twelventh_color;
+        color: $third_color;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #sec6 {
+    form {
+      width: 100%;
+
+      textarea,
+      input {
+        width: 100% !important;
+        padding: 12px 15px;
+      }
+    }
+  }
+}
