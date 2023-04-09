@@ -390,6 +390,7 @@
 .swiper_img {
   width: 200px !important;
   height: 200px;
+  margin: auto;
 }
 .swiper_img img {
   width: 98%;
