@@ -1,4 +1,4 @@
-let timerDate = new Date("Jan 25,2024 00:00:00").getTime();
+let timerDate = new Date("May 16,2024 00:00:00").getTime();
 
 let tD = document.querySelector(".td span");
 
