@@ -273,12 +273,12 @@ body {
   color: #fff;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #envelope {
     width: 280px;
     height: 200px;
   }
-  
+
   .envlope-wrapper {
     height: 280px;
   }
