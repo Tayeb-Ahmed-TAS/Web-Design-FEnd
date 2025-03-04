@@ -201,24 +201,24 @@ h3 {
 }
 
 .pookie{
-  position: absolute;
-  top: 56.25%;
-  left: 50.32%;
-  transform: translate(-50%, -50%);
-  z-index: 10;
-  cursor: pointer;
-  font-size: 30px;
+  position: absolute !important;
+  top: 56.25% !important;
+  left: 50.32% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 10 !important;
+  cursor: pointer !important;
+  font-size: 30px !important;
 }
 
 .ribbon_heart{
-  position: absolute;
-  top: -2%;
-  right: -5%;
-  transform: translate(-50%, -50%);
-  z-index: 10;
-  cursor: pointer;
-  font-size: 40px;
-  transform: rotate(30deg);
+  position: absolute !important;
+  top: -2% !important;
+  right: -5% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 10 !important;
+  cursor: pointer !important;
+  font-size: 40px !important;
+  transform: rotate(30deg) !important;
 }
 
 /* Responsive */
