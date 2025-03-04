@@ -156,9 +156,9 @@ h3 {
   width: 100%;
 }
 
-.words:first-child {
+.line1 {
   text-align: justify;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   color: #a52a2a;
 }
 
@@ -200,7 +200,7 @@ h3 {
   object-fit: cover;
 }
 
-.pookie{
+.pookie {
   position: absolute !important;
   top: 56.25% !important;
   left: 50.32% !important;
@@ -210,7 +210,7 @@ h3 {
   font-size: 30px !important;
 }
 
-.ribbon_heart{
+.ribbon_heart {
   position: absolute !important;
   top: -2% !important;
   right: -5% !important;
