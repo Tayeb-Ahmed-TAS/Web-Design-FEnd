@@ -200,6 +200,27 @@ h3 {
   object-fit: cover;
 }
 
+.pookie{
+  position: absolute;
+  top: 56.25%;
+  left: 50.32%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.ribbon_heart{
+  position: absolute;
+  top: -2%;
+  right: -5%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  cursor: pointer;
+  font-size: 40px;
+  transform: rotate(30deg);
+}
+
 /* Responsive */
 
 @media (max-width: 1400px) {
