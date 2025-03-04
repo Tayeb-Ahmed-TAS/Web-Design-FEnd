@@ -162,7 +162,7 @@ h3 {
   color: #a52a2a;
 }
 
-.words:nth-child(2) p {
+.line2 p {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
