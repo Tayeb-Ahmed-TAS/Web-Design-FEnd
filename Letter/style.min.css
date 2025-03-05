@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carattere&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap");
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   /* font-family: "Poppins", sans-serif; */
-  font-family: "Dancing Script", cursive;
+  /* font-family: "Dancing Script", cursive; */
+  /* font-family: "Carattere", cursive; */
+  font-family: "Charmonman", cursive;
+  font-weight: 400;
+  font-style: normal;
   scroll-behavior: smooth;
 }
 
@@ -151,17 +157,23 @@ h3 {
 
 .words p,
 h3 {
-  padding: 0px 0px 0px 15px;
+  padding: 0px 10px 0px 10px;
   margin: 2px;
   background-color: #ffcccc60;
   /* background-color: #ffcccc; */
   width: 100%;
+  line-height: 35px;
 }
 
 .line1 {
   text-align: justify;
   margin-bottom: 8px;
   color: #a52a2a;
+}
+
+.line1 h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
 }
 
 .line2 p {
@@ -183,7 +195,9 @@ h3 {
 
 .line7 h3 {
   text-align: center !important;
-  font-size: 22px !important;
+  font-size: 28px !important;
+  font-weight: bold !important;
+  font-family: "Dancing Script", cursive;
 }
 
 .stamp {
