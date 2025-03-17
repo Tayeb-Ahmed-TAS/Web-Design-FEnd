@@ -1,3 +1,13 @@
+// Preloader
+
+let loader = document.querySelector(".preloader");
+
+window.addEventListener("load", () => {
+  loader.style.display = "none";
+});
+
+// Letter
+
 let open_btn = document.querySelector(".envelope");
 // let open_btn = document.querySelector(".open_btn");
 let close_btn = document.querySelector(".close_btn");
