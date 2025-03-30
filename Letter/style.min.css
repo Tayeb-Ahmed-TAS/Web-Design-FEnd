@@ -27,11 +27,9 @@ body {
 
 .preloader {
   height: 1920vh;
-  background: linear-gradient(
-    to bottom,
-    #161a1a 0%,
-    rgba(38, 41, 41, 0.99) 100%
-  );
+  background: linear-gradient(to bottom,
+      #161a1a 0%,
+      rgba(38, 41, 41, 0.99) 100%);
   z-index: 1000;
   width: 100%;
   position: fixed;
@@ -69,6 +67,7 @@ body {
 }
 
 @keyframes move {
+
   0%,
   5% {
     left: -32px;
@@ -230,6 +229,10 @@ body {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   pointer-events: none;
+}
+
+.love_word {
+  color: transparent;
 }
 
 .words,
