@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Responsive 5 cards -->
+
+    <div class="container">
+
+        <h2>Random Card Generator</h2>
+
+        <div class="inp_boxs">
+            <select name="cardCount" id="cardCount">
+                <option value="1">Select number of cards</option>
+                <option value="3">3 Cards</option>
+                <option value="6">6 Cards</option>
+                <option value="9">9 Cards</option>
+                <option value="12">12 Cards</option>
+                <option value="15">15 Cards</option>
+            </select>
+
+            <button id="getCards">Generate Cards</button>
+        </div>
+
+        <div class="card_holder">
+
+            <!-- come from js -->
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+        <script src="app.js"></script>
+</body>
+
+</html>
