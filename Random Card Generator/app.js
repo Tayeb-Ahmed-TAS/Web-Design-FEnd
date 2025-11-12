@@ -7,6 +7,7 @@ generate_btn.addEventListener("click", async () => {
   let quantity = select.value;
 
   if (quantity == -1) {
+    alert("Please select a valid number of cards");
     return;
   }
 
@@ -114,3 +115,4 @@ async function getCardInfo(quantity) {
     return [];
   }
 }
+
