@@ -81,10 +81,18 @@ button:hover {
     align-items: center;
     font-size: 24px;
     color: #fff;
-    background: linear-gradient(310deg, #667eea, #764ba2);
     padding: 20px;
     margin: 10px;
     cursor: pointer;
+}
+
+.card:nth-child(odd) {
+
+    background: linear-gradient(310deg, #667eea, #764ba2);
+}
+
+.card:nth-child(even) {
+    background: linear-gradient(310deg, #bdc3c7, #2c3e50);
 }
 
 .card .card_left {
@@ -188,6 +196,7 @@ button:hover {
         width: 60px;
         top: -100px !important;
     }
+
 
 
 }
